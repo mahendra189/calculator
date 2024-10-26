@@ -139,7 +139,7 @@ class _CalcScreen extends State<Calc> {
                             space,
                             textAlign: TextAlign.right,
                             style: const TextStyle(
-                                fontSize: 25, color: Colors.white30),
+                                fontSize: 30, color: Colors.white70),
                           ),
                         )
                       ],

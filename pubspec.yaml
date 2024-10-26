@@ -90,6 +90,6 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
 flutter_icons:
-  android: "ic_launcher"
+  android: "launcher_icon"
   ios: false
   image_path: "assets/images/icon.png"
