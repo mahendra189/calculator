@@ -67,10 +67,10 @@ class _CalcScreen extends State<Calc> {
   void evaluateOperand() {
     if (input != '') {
       Map<IconData, num> operations = {
-        operatorMap['+']!: int.parse(space) + int.parse(input),
-        operatorMap['-']!: int.parse(space) - int.parse(input),
-        operatorMap['X']!: int.parse(space) * int.parse(input),
-        operatorMap['/']!: int.parse(space) / int.parse(input),
+        operatorMap['+']!: num.parse(space) + num.parse(input),
+        operatorMap['-']!: num.parse(space) - num.parse(input),
+        operatorMap['X']!: num.parse(space) * num.parse(input),
+        operatorMap['/']!: num.parse(space) / num.parse(input),
       };
       num eval = operations[operator]!;
       setState(() {
